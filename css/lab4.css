@@ -146,11 +146,9 @@ body {
 }
 
 .page-wrapper {
-    width: 60em;
+    width: 90%;
     padding: 3em;
-    margin: auto;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin: 33m auto;
     border-style: none;    
     border-radius: 1em 1em;
     box-shadow: 1em .75em #a0a0a0;
@@ -176,7 +174,7 @@ abbr {
 }
 
 h1 {
-    font-size: 10em;
+    font-size: 8em;
     color: #4CB2A4;
     font-weight: bold;
     font-family: 'Staatliches', cursive;
@@ -194,6 +192,7 @@ h3 {
     color: #002326;
     font-family: 'Staatliches', cursive;
     margin-bottom: .25em;
+    line-height: 1em;
 }
 
 .wrapper h3 {
@@ -252,7 +251,7 @@ p {
 }
 
 .main {
-    width: 60em;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -264,7 +263,7 @@ p {
 .main * {
     flex: 1 1 20em;
 }
-
+line-
  .main section {
     height: 25em;
     overflow: scroll;
@@ -410,4 +409,10 @@ footer a:hover {
 
 nav li:nth-child(3) {
     font-style: italic;
+}
+
+@media  screen and (min-width: 600px) {
+    h1 { 
+        font-size: 10em;
+    }
 }
