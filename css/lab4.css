@@ -148,7 +148,7 @@ body {
 .page-wrapper {
     width: 90%;
     padding: 3em;
-    margin: 33m auto;
+    margin: 3em auto;
     border-style: none;    
     border-radius: 1em 1em;
     box-shadow: 1em .75em #a0a0a0;
@@ -191,7 +191,7 @@ h3 {
     font-size: 3em;
     color: #002326;
     font-family: 'Staatliches', cursive;
-    margin-bottom: .25em;
+    margin: 1em 0.25em 0;
     line-height: 1em;
 }
 
@@ -414,5 +414,9 @@ nav li:nth-child(3) {
 @media  screen and (min-width: 600px) {
     h1 { 
         font-size: 10em;
+    }
+    
+    .page-wrapper {
+        width: 70%; 
     }
 }
