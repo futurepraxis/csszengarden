@@ -263,11 +263,6 @@ p {
 .main * {
     flex: 1 1 20em;
 }
-line-
- .main section {
-    height: 25em;
-    overflow: scroll;
- }
 
 .main section {
     border: 1em;
@@ -278,6 +273,8 @@ line-
     box-sizing: content-box;
     border-radius: 1em 1em;
     opacity: .95;
+    height: 25em;
+    overflow: scroll;
 }
 
 .explanation {
